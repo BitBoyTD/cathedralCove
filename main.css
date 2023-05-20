@@ -37,7 +37,7 @@ nav{
     font-family: 'lexend';
     color:  black;
     text-decoration: none;
-    padding: 0 20px; 0 20px;
+    padding: 0 20px;
 }
 
 
@@ -75,7 +75,7 @@ main {
     display: flex;
   flex-direction: column;
     grid-row: 2/3;
-    grid-column: 1/4
+    grid-column: 1/4;
     background-color: rgb(236, 249, 255);
 }
 
