@@ -171,6 +171,13 @@ p {
     margin: 2vw 0 2vw 0;
 }
 
+@media (max-width: 1080px) {
+    .mainTextImage {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
 .mainText {
     display: flex;
     flex-direction: column;
