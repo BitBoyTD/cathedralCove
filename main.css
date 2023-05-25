@@ -147,6 +147,7 @@ hero {
         width: auto;
         height: 60vh;
         justify-self: center;
+        overflow: hidden;
     }
 
     hero {
