@@ -2,9 +2,10 @@
 
 To Do:
  - Media Queries
+    bigger images
     font-size
     simplified nav bar
-    bigger images
+
     side nav popup
 
 
@@ -48,12 +49,12 @@ body {
 body {
     background-color: #FAEAB1;
     margin: 0;
-    width: 100%;
+    width: 100vw;
 }
 
 .navBuffer {
     height: 8vh;
-    width: 100%;
+    width: 100vw;
 }
 
 nav{
@@ -61,7 +62,7 @@ nav{
     top: 0;
     left: 0;
     height: 8vh;
-    width: 100%;
+    width: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -78,12 +79,6 @@ nav{
     text-decoration: none;
     padding: 0 2rem;
 }
-
-@media (max-width: 768px) {
-    .navLink {
-      font-size: 3rem;
-    }
-  }
 
 .navLink:hover {
     color: #003261;
@@ -114,6 +109,7 @@ hero {
     grid-column: 1/4;
     grid-row: 1/1;
     position: relative;
+    width: 100vw;
 }
 
 .heroImage {
@@ -145,6 +141,7 @@ main {
     flex-direction: column;
     grid-row: 2/3;
     grid-column: 1/4;
+    width: 100vw;
 }
 
 footer {
