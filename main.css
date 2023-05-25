@@ -71,7 +71,7 @@ nav{
     box-shadow: 0 5px 18px black;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     nav {
       position: absolute;
     }
@@ -184,7 +184,7 @@ p {
     margin: 1rem 0;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .mainTextImage {
       display: flex;
       flex-direction: column;
