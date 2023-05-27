@@ -7,7 +7,7 @@
     </head>
     <body>
         <nav>
-            <img src="images/Cathedral Cove Logo.png" class="navLogo">
+            <button  class="navLogoButton" onclick="showNavPopUp()"><img src="images/Cathedral Cove Logo.png" class="navLogo"></button>
             <a class="navLink navLeft visible" href="index.html">Cathedral Cove</a>
             <a class="navLink" href="location.html">Location</a>
             <a class="navLink" href="history.html">History</a>
@@ -15,6 +15,13 @@
         </nav>
         <div class="navBuffer">
             If you can see this I messed up...
+        </div>
+        <div id="navPopUp">
+            <a class="navPopUpLink" href="index.html">Home</a>
+            <a class="navPopUpLink" href="location.html">Location</a>
+            <a class="navPopUpLink" href="history.html">History</a>
+            <a class="navPopUpLink" href="fame.html">Fame</a>
+            <button class="navPopUpLink navClose" onclick="closeNavPopUp()">Close</button>
         </div>
         <div class="gridContainer">
             <hero>
@@ -57,3 +64,12 @@
         </div>
     </body>
 </html>
+<script>
+    function showNavPopUp() {
+        document.getElementById("navPopUp").style.display = "flex";
+    }
+
+    function closeNavPopUp() {
+        document.getElementById("navPopUp").style.display = "none";
+    }
+</script>
