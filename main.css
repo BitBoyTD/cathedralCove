@@ -116,7 +116,7 @@ nav{
     }
 }
 
-.navLogoButton {
+.logo {
     width: 3vw;
     height: 3vw;
     position: absolute;
@@ -126,11 +126,28 @@ nav{
 }
 
 @media (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+}
+
+.navLogoButton {
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+    left: 1.4vw;
+    border: none;
+    background: none;
+    display: none;
+}
+
+@media (max-width: 768px) {
     .navLogoButton {
         position: relative;
         height: 90%;
         width: auto;
         right: 1.4vw;
+        display:contents;
         left: auto;
     }
 }
